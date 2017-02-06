@@ -1,0 +1,27 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  padding: 100px 200px;
+}
+
+.formulaire {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #DDDBDD;
+  border-radius: 4px;
+  padding: 20px 40px 40px 40px;
+}
+
+label, p, span, h1 {
+  font-weight: 300;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+

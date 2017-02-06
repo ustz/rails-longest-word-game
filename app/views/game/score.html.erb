@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card text-center">
+    <h1>Now your result</h1>
+    <p>Your word : <%= @shot %></p>
+    <p>Time Taken to answer : <%= @time %></p>
+    <p>Translation : <%= @translation %></p>
+    <p>Your score is : <%= @score %></p>
+    <div class="alert alert-success" role="alert">
+      <p>Message : <%= @message %></p>
+    </div>
+    <%= link_to "Get back to link", run_path %>
+  </div>
+</div>

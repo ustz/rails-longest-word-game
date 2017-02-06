@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="card text-center">
+    <h1>Welcome to the longest word game !</h1>
+    <p>Here is your grid :</p>
+    <% @grid.each do |letter| %>
+      <span class="letter"><%= letter %></span>
+    <% end %>
+    <form action="score" class="form-inline formulaire">
+      <label for="shot" id="label">What's your best shot ?</label>
+      <input type="text" name='shot' class="form-control">
+      <input type="hidden" name="start" value="<%= @start_time %>">
+      <input type="hidden" name="grid" value="<%= @grid.flatten %>">
+      <input type="submit" class="btn btn-primary">
+    </form>
+  </div>
+</div>
